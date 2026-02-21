@@ -1,29 +1,29 @@
-/* ===== Warm theme variables (Light & Dark) ===== */
+/* ===== Cool Blue theme variables (Light & Dark) ===== */
 :root {
-  /* Light (warm) */
-  --bg: #fff8f0;
-  --text: #2b2620;
-  --muted: #6d6258;
-  --divider: #e9d9c9;
-  --section-odd: #fcf1e6;
-  --link: #b55b00;
-  --link-underline: rgba(181, 91, 0, 0.3);
-  --btn-bg: #f4e6d7;
-  --btn-border: #e0cbb5;
-  --btn-text: #2b2620;
+  /* Light (cool blue) */
+  --bg: #f4f9fc;
+  --text: #2c3e50;
+  --muted: #64748b;
+  --divider: #dbeafe;
+  --section-odd: #eaf2f8;
+  --link: #0284c7;
+  --link-underline: rgba(2, 132, 199, 0.3);
+  --btn-bg: #e0f2fe;
+  --btn-border: #bae6fd;
+  --btn-text: #0369a1;
 }
 html.dark-mode {
-  /* Dark (warm) */
-  --bg: #1b1612;
-  --text: #efe7df;
-  --muted: #b6a89c;
-  --divider: #3a2f27;
-  --section-odd: #201a15;
-  --link: #ffb86b;
-  --link-underline: rgba(255, 184, 107, 0.35);
-  --btn-bg: #2a221b;
-  --btn-border: #3c3128;
-  --btn-text: #efe7df;
+  /* Dark (cool blue) */
+  --bg: #0f172a;
+  --text: #f1f5f9;
+  --muted: #94a3b8;
+  --divider: #1e293b;
+  --section-odd: #162032;
+  --link: #38bdf8;
+  --link-underline: rgba(56, 189, 248, 0.35);
+  --btn-bg: #1e293b;
+  --btn-border: #334155;
+  --btn-text: #e0f2fe;
 }
 @media (prefers-color-scheme: dark) {
   html:not(.dark-mode):not(.light-mode) { color-scheme: dark; }
