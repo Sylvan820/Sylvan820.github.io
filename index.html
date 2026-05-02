@@ -38,7 +38,7 @@ Hey, I'm Yuhao Shen, a direct PhD student at the College of Control Science and 
 <a href="https://cwang-zju.github.io/">Prof. Cong Wang</a>. I also received my B.E. degree from Zhejiang University.
 </p>
 <p>
-My research lies in <strong>MLSys</strong>, <strong>LLM Inference</strong>, <strong>AI Infrastructure</strong>, and <strong>Edge Computing</strong>. Over the past two years, I have been deeply engaged in the field of speculative sampling and decoding. Outside academia, I enjoy playing basketball, video games, and photography.
+My research lies in <strong>MLSys</strong>, <strong>LLM Inference</strong>, <strong>AI Infrastructure</strong>, and <strong>Edge Computing</strong>. Over the past two years, I have been deeply engaged in the field of speculative sampling and decoding. I was previously a research intern at Qwen Application and received an internship offer from the Tencent Hunyuan Qingyun Project. Currently, I am researching RL rollout acceleration in the Tongyi Qwen Foundation Model Infra group. Outside academia, I enjoy playing basketball, video games, and photography.
 </p>
 <p class="links">
 <a href="mailto:riven@zju.edu.cn" aria-label="Email Yuhao">Email</a>
@@ -57,6 +57,9 @@ My research lies in <strong>MLSys</strong>, <strong>LLM Inference</strong>, <str
 <section class="news" aria-labelledby="news-heading">
 <h2 id="news-heading">Recent News</h2>
 <ul class="news-list">
+<li>
+<time datetime="2026-05-02">[2026/05]</time> Congratulations, <a href="https://arxiv.org/abs/2604.09603">ECHO</a> is chosen as ICML 2026 Spotlight!
+</li>
 <li>
 <time datetime="2026-04-17">[2026/04]</time> Congratulations, <a href="https://arxiv.org/abs/2601.05524">Double</a> is chosen as ACL 2026 Best Paper Candidate!
 </li>
@@ -115,6 +118,23 @@ Advisor: <a href="https://cwang-zju.github.io/">Cong Wang</a>
 <section class="publications" aria-labelledby="pubs-heading">
 <h2 id="pubs-heading">Publications</h2>
 
+<!-- ACCEPTED PAPERS -->
+<article class="pub">
+<div class="pub-media">
+<img src="pubs/echo.png" alt="ECHO illustration" />
+</div>
+<div class="pub-body">
+<h3 class="papertitle">
+ECHO: Elastic Speculative Decoding with Sparse Gating for High-Concurrency Scenarios
+</h3>
+<p class="authors">
+Xinyi Hu*, <strong>Yuhao Shen*</strong>, Baolin Zhang, Hengxin Zhang, Jun Dai, Shuang Ge, Lei Chen, Yue Li, Mingcheng Wan (Equal Contribution)
+</p>
+<p class="venue"><em>International Conference on Machine Learning (ICML) Spotlight</em>, 2026</p>
+<p class="links"><a href="https://arxiv.org/abs/2604.09603">arXiv</a></p>
+</div>
+</article>
+
 <article class="pub">
 <div class="pub-media">
 <img src="pubs/double1.png" alt="Double illustration" />
@@ -127,7 +147,55 @@ Double: Breaking the Acceleration Limit via Double Retrieval Speculative Paralle
 <strong>Yuhao Shen</strong>, <a href="https://github.com/smart-lty">Tianyu Liu</a>, <a href="https://j1shen.github.io/">Junyi Shen</a>, Jinyang Wu, Quan Kong, Huan Li, <a href="https://cwang-zju.github.io/">Cong Wang</a>
 </p>
 <p class="venue"><em>ACL 2026 Best Paper Candidate</em></p>
-<p class="links"><a href="https://arxiv.org/abs/2601.05524">arXiv</a></p>
+<p class="links"><a href="https://arxiv.org/abs/2601.05524">arXiv</a>, <a href="https://github.com/Sylvan820/Double1">Code</a></p>
+</div>
+</article>
+
+<article class="pub">
+<div class="pub-media">
+<img src="pubs/spark.png" alt="Spark illustration" />
+</div>
+<div class="pub-body">
+<h3 class="papertitle">
+Spark: Strategic Policy-Aware Exploration via Dynamic Branching for Long-Horizon Agentic Learning
+</h3>
+<p class="authors">
+<a href="https://huggingface.co/Jinyang23/">Jinyang Wu</a>, S Yang, C Yang, <strong>Yuhao Shen</strong>, S Zhang, Z Wen, J Tao
+</p>
+<p class="venue"><em>ACL 2026 Main Conference</em></p>
+<p class="links"><a href="https://arxiv.org/abs/2601.20209">arXiv</a>, <a href="https://github.com/jinyangwu/SPARK">Code</a></p>
+</div>
+</article>
+
+<article class="pub">
+<div class="pub-media">
+<img src="pubs/atlas.png" alt="Atlas illustration" />
+</div>
+<div class="pub-body">
+<h3 class="papertitle">
+Atlas: Orchestrating Heterogeneous Models and Tools for Multi-Domain Complex Reasoning
+</h3>
+<p class="authors">
+<a href="https://huggingface.co/Jinyang23/">Jinyang Wu</a>, G Zhai, R Jin, J Yuan, <strong>Yuhao Shen</strong>, S Zhang, Z Wen, J Tao
+</p>
+<p class="venue"><em>ACL 2026 Findings</em></p>
+<p class="links"><a href="https://arxiv.org/abs/2601.03872">arXiv</a></p>
+</div>
+</article>
+
+<article class="pub">
+<div class="pub-media">
+<img src="pubs/parallelvlm.png" alt="ParallelVLM illustration" />
+</div>
+<div class="pub-body">
+<h3 class="papertitle">
+ParallelVLM: Lossless Video-LLM Acceleration with Visual Alignment Aware Parallel Speculative Decoding
+</h3>
+<p class="authors">
+Quan Kong*, <strong>Yuhao Shen*</strong>, Yicheng Ji, Huan Li, <a href="https://cwang-zju.github.io/">Cong Wang</a> (Equal Contribution)
+</p>
+<p class="venue"><em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2026</p>
+<p class="links"><a href="https://arxiv.org/abs/2603.19610">arXiv</a>, <a href="https://github.com/imKQv/ParallelVLM">Code</a></p>
 </div>
 </article>
 
@@ -144,120 +212,6 @@ SpecBranch: Speculative Decoding via Hybrid Drafting and Rollback-Aware Branch P
 </p>
 <p class="venue"><em>International Conference on Learning Representations (ICLR)</em>, 2026</p>
 <p class="links"><a href="https://openreview.net/forum?id=BrnlCSqO6n">ICLR 2026</a>, <a href="https://github.com/Sylvan820/Specbranch">Code</a></p>
-</div>
-</article>
-
-<article class="pub">
-<div class="pub-media">
-<img src="pubs/vittt.png" alt="Vision-TTT illustration" />
-</div>
-<div class="pub-body">
-<h3 class="papertitle">
-Vision-TTT: Efficient and Expressive Visual Representation Learning with Test-Time Training
-</h3>
-<p class="authors">
-Quan Kong, Yanru Xiao, <strong>Yuhao Shen</strong>, <a href="https://cwang-zju.github.io/">Cong Wang</a>
-</p>
-<p class="venue"><em>arXiv</em> (2026)</p>
-<p class="links"><a href="https://arxiv.org/abs/2603.00518">arXiv</a></p>
-</div>
-</article>
-
-<article class="pub">
-<div class="pub-media">
-<img src="pubs/echo.png" alt="ECHO illustration" />
-</div>
-<div class="pub-body">
-<h3 class="papertitle">
-ECHO: Elastic Speculative Decoding with Sparse Gating for High-Concurrency Scenarios
-</h3>
-<p class="authors">
-Xinyi Hu*, <strong>Yuhao Shen*</strong>, Baolin Zhang, Hengxin Zhang, Jun Dai, Shuang Ge, Lei Chen, Yue Li, Mingcheng Wan (Equal Contribution)
-</p>
-<p class="venue"><em>arXiv</em> (2026)</p>
-</div>
-</article>
-
-<article class="pub">
-<div class="pub-media">
-<img src="pubs/parallelvlm.png" alt="ParallelVLM illustration" />
-</div>
-<div class="pub-body">
-<h3 class="papertitle">
-ParallelVLM: Lossless Video-LLM Acceleration with Visual Alignment Aware Parallel Speculative Decoding
-</h3>
-<p class="authors">
-Quan Kong*, <strong>Yuhao Shen*</strong>, Yicheng Ji, Huan Li, <a href="https://cwang-zju.github.io/">Cong Wang</a> (Equal Contribution)
-</p>
-<p class="venue"><em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2026</p>
-</div>
-</article>
-
-
-<article class="pub">
-<div class="pub-media">
-<img src="pubs/atlas.png" alt="Atlas illustration" />
-</div>
-<div class="pub-body">
-<h3 class="papertitle">
-Atlas: Orchestrating Heterogeneous Models and Tools for Multi-Domain Complex Reasoning
-</h3>
-<p class="authors">
-              Jinyang Wu, G Zhai, R Jin, J Yuan, <strong>Yuhao Shen</strong>, S Zhang, Z Wen, J Tao
-              <a href="https://huggingface.co/Jinyang23/">Jinyang Wu</a>, G Zhai, R Jin, J Yuan, <strong>Yuhao Shen</strong>, S Zhang, Z Wen, J Tao
-</p>
-<p class="venue"><em>ACL 2026 Findings</em></p>
-<p class="links"><a href="https://arxiv.org/abs/2601.03872">arXiv</a></p>
-</div>
-</article>
-
-<article class="pub">
-<div class="pub-media">
-<img src="pubs/ssl.png" alt="SSL illustration" />
-</div>
-<div class="pub-body">
-<h3 class="papertitle">
-SSL: Sweet Spot Learning for Differentiated Guidance in Agentic Optimization
-</h3>
-<p class="authors">
-              Jinyang Wu, C Yang, <strong>Yuhao Shen</strong>, F Xu, B Ni, C Liao, Y Liu, H Wang, S Nie, S Zhang, et al.
-              <a href="https://huggingface.co/Jinyang23/">Jinyang Wu</a>, C Yang, <strong>Yuhao Shen</strong>, F Xu, B Ni, C Liao, Y Liu, H Wang, S Nie, S Zhang, et al.
-</p>
-<p class="venue"><em>arXiv</em> (2026)</p>
-<p class="links"><a href="https://arxiv.org/abs/2601.22491">arXiv</a></p>
-</div>
-</article>
-
-<article class="pub">
-<div class="pub-media">
-<img src="pubs/spark.png" alt="Spark illustration" />
-</div>
-<div class="pub-body">
-<h3 class="papertitle">
-Spark: Strategic Policy-Aware Exploration via Dynamic Branching for Long-Horizon Agentic Learning
-</h3>
-<p class="authors">
-              Jinyang Wu, S Yang, C Yang, <strong>Yuhao Shen</strong>, S Zhang, Z Wen, J Tao
-              <a href="https://huggingface.co/Jinyang23/">Jinyang Wu</a>, S Yang, C Yang, <strong>Yuhao Shen</strong>, S Zhang, Z Wen, J Tao
-</p>
-<p class="venue"><em>ACL 2026 Main Conference</em></p>
-<p class="links"><a href="https://arxiv.org/abs/2601.20209">arXiv</a></p>
-</div>
-</article>
-
-<article class="pub">
-<div class="pub-media">
-<img src="pubs/talon.png" alt="TALON illustration" />
-</div>
-<div class="pub-body">
-<h3 class="papertitle">
-TALON: Confidence-Aware Speculative Decoding with Adaptive Token Trees
-</h3>
-<p class="authors">
-<a href="https://github.com/smart-lty">Tianyu Liu</a>, Q Lv, <strong>Yuhao Shen</strong>, X Sun, X Sun
-</p>
-<p class="venue"><em>arXiv</em> (2026)</p>
-<p class="links"><a href="https://arxiv.org/abs/2601.07353">arXiv</a></p>
 </div>
 </article>
 
@@ -293,6 +247,55 @@ F Yan, <a href="https://cwang-zju.github.io/">Cong Wang</a>, Z Wang, <strong>Yuh
 </div>
 </article>
 
+<!-- PREPRINTS / ARXIV -->
+<article class="pub">
+<div class="pub-media">
+<img src="pubs/vittt.png" alt="Vision-TTT illustration" />
+</div>
+<div class="pub-body">
+<h3 class="papertitle">
+Vision-TTT: Efficient and Expressive Visual Representation Learning with Test-Time Training
+</h3>
+<p class="authors">
+Quan Kong, Yanru Xiao, <strong>Yuhao Shen</strong>, <a href="https://cwang-zju.github.io/">Cong Wang</a>
+</p>
+<p class="venue"><em>arXiv</em> (2026)</p>
+<p class="links"><a href="https://arxiv.org/abs/2603.00518">arXiv</a></p>
+</div>
+</article>
+
+<article class="pub">
+<div class="pub-media">
+<img src="pubs/ssl.png" alt="SSL illustration" />
+</div>
+<div class="pub-body">
+<h3 class="papertitle">
+SSL: Sweet Spot Learning for Differentiated Guidance in Agentic Optimization
+</h3>
+<p class="authors">
+<a href="https://huggingface.co/Jinyang23/">Jinyang Wu</a>, C Yang, <strong>Yuhao Shen</strong>, F Xu, B Ni, C Liao, Y Liu, H Wang, S Nie, S Zhang, et al.
+</p>
+<p class="venue"><em>arXiv</em> (2026)</p>
+<p class="links"><a href="https://arxiv.org/abs/2601.22491">arXiv</a></p>
+</div>
+</article>
+
+<article class="pub">
+<div class="pub-media">
+<img src="pubs/talon.png" alt="TALON illustration" />
+</div>
+<div class="pub-body">
+<h3 class="papertitle">
+TALON: Confidence-Aware Speculative Decoding with Adaptive Token Trees
+</h3>
+<p class="authors">
+<a href="https://github.com/smart-lty">Tianyu Liu</a>, Q Lv, <strong>Yuhao Shen</strong>, X Sun, X Sun
+</p>
+<p class="venue"><em>arXiv</em> (2026)</p>
+<p class="links"><a href="https://arxiv.org/abs/2601.07353">arXiv</a></p>
+</div>
+</article>
+
 </section>
 
 <section class="profession" aria-labelledby="prof-heading">
@@ -301,11 +304,23 @@ F Yan, <a href="https://cwang-zju.github.io/">Cong Wang</a>, Z Wang, <strong>Yuh
 <tbody>
 <tr>
 <td class="logo-cell">
-<img src="images/qwen.png" alt="Qwen Business Group logo" class="logo-img" />
+<img src="images/qwen.png" alt="Qwen Foundation Model logo" class="logo-img" />
+</td>
+<td>
+<strong>Research Intern, Qwen Foundation Model</strong><br />
+May. 2026 - Present<br />
+Topic: Speculative Decoding, RL Infra<br />
+Advisor: Yucheng Li, Huiqiang Jiang<br />
+Hangzhou, China
+</td>
+</tr>
+<tr>
+<td class="logo-cell">
+<img src="images/qwen.png" alt="Qwen Application logo" class="logo-img" />
 </td>
 <td>
 <strong>Research Intern, Qwen Application</strong><br />
-Nov. 2025 - Present<br />
+Nov. 2025 - May. 2026<br />
 Topic: Speculative Decoding, AI Infra<br />
 Advisor: Ye Shuang, Jun Dai, Lei Chen<br />
 Hangzhou, China
