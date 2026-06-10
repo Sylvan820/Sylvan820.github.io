@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>Yuhao Shen piggy - Homepage</title>
-<meta name="author" content="Yuhao Shen piggy - Homepage" />
+<title>Yuhao Shen - Academic Homepage</title>
+<meta name="author" content="Yuhao Shen - Academic Homepage" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta
 name="description"
@@ -15,7 +15,7 @@ content="Yuhao Shen (沈宇豪) — PhD student at Zhejiang University. Research
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link
-href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap"
+href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@700&display=swap"
 rel="stylesheet"
 />
 
@@ -25,12 +25,24 @@ rel="stylesheet"
 
 <body>
 <div class="wrapper">
+<nav class="site-nav" aria-label="Primary navigation">
+<a href="#name" class="brand">Yuhao Shen</a>
+<div class="nav-links">
+<a href="#news-heading">News</a>
+<a href="#edu-heading">Education</a>
+<a href="#pubs-heading">Publications</a>
+<a href="#prof-heading">Experience</a>
+<button class="mode-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">Dark mode</button>
+</div>
+</nav>
+
 <header class="personal-intro" aria-labelledby="name">
 <figure>
 <img src="images/sylvan.png" alt="Portrait of Yuhao Shen" class="profile-img" />
-<figcaption class="caption">Photo</figcaption>
+<figcaption class="caption">Yuhao Shen</figcaption>
 </figure>
 <div>
+<p class="eyebrow">Direct Ph.D. Student · Zhejiang University</p>
 <h1 id="name" class="name">Yuhao Shen (沈宇豪)</h1>
 <p>
 Hey, I'm Yuhao Shen, a direct PhD student at the College of Control Science and Engineering,
@@ -40,17 +52,19 @@ Hey, I'm Yuhao Shen, a direct PhD student at the College of Control Science and 
 <p>
 My research lies in <strong>MLSys</strong>, <strong>LLM Inference</strong>, <strong>AI Infrastructure</strong>, and <strong>Edge Computing</strong>. Over the past two years, I have been deeply engaged in the field of speculative sampling and decoding. I was previously a research intern at Qwen Application and received an internship offer from the Tencent Hunyuan Qingyun Project. Currently, I am researching RL rollout acceleration in the Tongyi Qwen Foundation Model Infra group. Outside academia, I enjoy playing basketball, video games, and photography.
 </p>
-<p class="links">
+<p class="research-tags" aria-label="Research interests">
+<span>Speculative Decoding</span>
+<span>RL Infrastructure</span>
+<span>LLM Serving</span>
+<span>Edge AI</span>
+</p>
+<p class="links contact-links">
 <a href="mailto:riven@zju.edu.cn" aria-label="Email Yuhao">Email</a>
-<span aria-hidden="true">/</span>
+<span aria-hidden="true">·</span>
 <a href="https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AF9nlQsdMchDuK38CHVbZO1jfmz5vIj4iIdiQG4XSdu5_1qf25xn3a2pVOdxedWczCwXKYJRoxBAWXkoalbwnm8R1_ie&user=kYveqcQAAAAJ">Scholar</a>
-<span aria-hidden="true">/</span>
+<span aria-hidden="true">·</span>
 <a href="https://github.com/Sylvan820">GitHub</a>
 </p>
-
-<div class="toolbar">
-<button class="mode-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌓</button>
-</div>
 </div>
 </header>
 
@@ -59,6 +73,9 @@ My research lies in <strong>MLSys</strong>, <strong>LLM Inference</strong>, <str
 <ul class="news-list">
 <li>
 <time datetime="2026-05-24">[2026/05]</time> Congratulations, <a href="https://arxiv.org/abs/2604.09603">ECHO</a> is chosen as ICML 2026 Oral presentation and <a href="https://arxiv.org/abs/2601.05524">Double</a> is chosen as ACL 2026 Oral presentation!
+</li>
+<li>
+<time datetime="2026-05-21">[2026/05]</time> Three new preprints are released: <a href="https://arxiv.org/abs/2605.22177">Maestro</a>, <a href="https://arxiv.org/abs/2605.20104">Draft Less, Retrieve More</a>, and <a href="https://arxiv.org/abs/2604.26412">When Hidden States Drift</a>.
 </li>
 <li>
 <time datetime="2026-05-02">[2026/05]</time> Congratulations, <a href="https://arxiv.org/abs/2604.09603">ECHO</a> is chosen as ICML 2026 Spotlight!
@@ -156,6 +173,70 @@ Double: Breaking the Acceleration Limit via Double Retrieval Speculative Paralle
 
 <article class="pub">
 <div class="pub-media">
+<img src="pubs/specbranch.png" alt="SpecBranch illustration" />
+</div>
+<div class="pub-body">
+<h3 class="papertitle">
+SpecBranch: Speculative Decoding via Hybrid Drafting and Rollback-Aware Branch Parallelism
+</h3>
+<p class="authors">
+<strong>Yuhao Shen*</strong>, <a href="https://j1shen.github.io/">Junyi Shen*</a>, Quan Kong, <a href="https://github.com/smart-lty">Tianyu Liu</a>, <a href="https://yao.lu/">Yao Lu</a>, <a href="https://cwang-zju.github.io/">Cong Wang</a>
+</p>
+<p class="venue"><em>International Conference on Learning Representations (ICLR)</em>, 2026</p>
+<p class="links"><a href="https://openreview.net/forum?id=BrnlCSqO6n">ICLR 2026</a>, <a href="https://github.com/Sylvan820/Specbranch">Code</a></p>
+</div>
+</article>
+
+<article class="pub">
+<div class="pub-media">
+<img src="pubs/maestro.jpg" alt="Maestro illustration" />
+</div>
+<div class="pub-body">
+<h3 class="papertitle">
+Maestro: Reinforcement Learning to Orchestrate Hierarchical Model-Skill Ensembles
+</h3>
+<p class="authors">
+<a href="https://huggingface.co/Jinyang23/">Jinyang Wu</a>, Guocheng Zhai, Ruihan Jin, <strong>Yuhao Shen</strong>, Zhengxi Lu, Fan Zhang, Haoran Luo, Zheng Lian, Zhengqi Wen, Jianhua Tao
+</p>
+<p class="venue"><em>arXiv</em> (2026)</p>
+<p class="links"><a href="https://arxiv.org/abs/2605.22177">arXiv</a>, <a href="https://github.com/jinyangwu/Maestro">Code</a></p>
+</div>
+</article>
+
+<article class="pub">
+<div class="pub-media">
+<img src="pubs/kvshot.jpg" alt="When Hidden States Drift illustration" />
+</div>
+<div class="pub-body">
+<h3 class="papertitle">
+When Hidden States Drift: Can KV Caches Rescue Long-Range Speculative Decoding?
+</h3>
+<p class="authors">
+<a href="https://github.com/smart-lty">Tianyu Liu</a>, <strong>Yuhao Shen</strong>, Xinyi Hu, Baolin Zhang, Hengxin Zhang, Jun Dai, Jun Zhang, Shuang Ge, Lei Chen, Yue Li, MingCheng Wan
+</p>
+<p class="venue"><em>arXiv</em> (2026)</p>
+<p class="links"><a href="https://arxiv.org/abs/2604.26412">arXiv</a></p>
+</div>
+</article>
+
+<article class="pub">
+<div class="pub-media">
+<img src="pubs/graft.jpg" alt="Draft Less, Retrieve More illustration" />
+</div>
+<div class="pub-body">
+<h3 class="papertitle">
+Draft Less, Retrieve More: Hybrid Tree Construction for Speculative Decoding
+</h3>
+<p class="authors">
+<strong>Yuhao Shen</strong>, <a href="https://github.com/smart-lty">Tianyu Liu</a>, Xinyi Hu, Quan Kong, Baolin Zhang, Jun Dai, Jun Zhang, Shuang Ge, Lei Chen, Yue Li, Mingcheng Wan, <a href="https://cwang-zju.github.io/">Cong Wang</a>
+</p>
+<p class="venue"><em>arXiv</em> (2026)</p>
+<p class="links"><a href="https://arxiv.org/abs/2605.20104">arXiv</a></p>
+</div>
+</article>
+
+<article class="pub">
+<div class="pub-media">
 <img src="pubs/spark.png" alt="Spark illustration" />
 </div>
 <div class="pub-body">
@@ -199,22 +280,6 @@ Quan Kong*, <strong>Yuhao Shen*</strong>, Yicheng Ji, Huan Li, <a href="https://
 </p>
 <p class="venue"><em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2026</p>
 <p class="links"><a href="https://arxiv.org/abs/2603.19610">arXiv</a>, <a href="https://github.com/imKQv/ParallelVLM">Code</a></p>
-</div>
-</article>
-
-<article class="pub">
-<div class="pub-media">
-<img src="pubs/specbranch.png" alt="SpecBranch illustration" />
-</div>
-<div class="pub-body">
-<h3 class="papertitle">
-SpecBranch: Speculative Decoding via Hybrid Drafting and Rollback-Aware Branch Parallelism
-</h3>
-<p class="authors">
-<strong>Yuhao Shen*</strong>, <a href="https://j1shen.github.io/">Junyi Shen*</a>, Quan Kong, <a href="https://github.com/smart-lty">Tianyu Liu</a>, <a href="https://yao.lu/">Yao Lu</a>, <a href="https://cwang-zju.github.io/">Cong Wang</a>
-</p>
-<p class="venue"><em>International Conference on Learning Representations (ICLR)</em>, 2026</p>
-<p class="links"><a href="https://openreview.net/forum?id=BrnlCSqO6n">ICLR 2026</a>, <a href="https://github.com/Sylvan820/Specbranch">Code</a></p>
 </div>
 </article>
 
@@ -349,7 +414,7 @@ const startDark = savedMode ? savedMode === "dark" : prefersDark;
 function applyMode(dark) {
 ROOT.classList.toggle("dark-mode", dark);
 if (modeBtn) {
-modeBtn.textContent = dark ? "☀️" : "🌓";
+modeBtn.textContent = dark ? "Light" : "Dark";
 modeBtn.setAttribute("aria-label", dark ? "Toggle light mode" : "Toggle dark mode");
 modeBtn.title = dark ? "Light mode" : "Dark mode";
 }
